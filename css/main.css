@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "thin";
+  src: url("../fonts/Antonio-Light.ttf");
+  src: local("?"),
+    url("../fonts/Antonio-Light.ttf") format("truetype"),
+  }
+
+  @font-face {
+  font-family: "light";
+  src: url("../fonts/Raleway-Regular.ttf");
+  src: local("?"),
+
+    url("../fonts/Raleway-Regular.ttf") format("truetype"),
+
+  }
+
+@font-face {
+font-family: "header";
+src: url("../fonts/Antonio-Bold.ttf");
+src: local("?"),
+
+  url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype"),
+
+}
+
+
+body{
+	background-color: #fffefe;
+}
+
+h1{
+	font-family: header;
+	font-size: 48px;
+}
+
+h2{
+	font-family: header;
+	font-size: 32px;
+}
+
+h3{
+	font-family: header;
+	font-size: 24px;
+	margin-bottom: -16px;
+}
+
+p{
+	font-family:light;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top:32px;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.heroImage{
+	height:555px;
+	width:100%;
+	position: absolute;
+	background: url('../img/stickyNote.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#header{
+	height:420px;
+}
+
+#nav{
+	height:100px;
+	padding-top:32px;
+}
+
+
+#logo{
+
+	height:100%;
+	width:100%;
+}
+
+#logo a{
+	font-family: header;
+	text-decoration: none;
+	font-size:32px;
+	color:#191919;
+}
+
+
+#navlinks{
+
+	height:100%;
+	width:100%;
+	float:right;
+
+}
+
+
+.currentPage{
+	color: #6942DC;
+	text-decoration: underline;
+}
+
+
+
+.actualNav{
+	display:flex;
+	float: right;
+}
+
+
+.actualNav li{
+decoration:none;
+font-size:24px;
+font-family:thin;
+float:left;
+margin-right:32px;
+}
+
+
+
+
+.actualNav a{
+color:inherit;
+text-decoration: none;
+}
+
+.actualNav li:hover{
+text-decoration: underline;
+
+}
+
+.titleMessage{
+	height:100%;
+	padding-top:48px;
+}
+
+.title{
+	height:100%;
+}
+
+.message{
+	height:100%;
+}
+
+
+.gallery{
+	height:20%;
+	text-align: center;
+}
+
+.galleryItem{
+	padding:12px;
+}
+
+.gallery1{
+	height:100%;
+ 	background: url('../img/workout.png');
+	background-size:contain;
+	margin-right:12px;
+	margin-bottom:24px;
+	border-radius: 6px;
+}
+
+.gallery2{
+	height:100%;
+ 	background: url('../img/typewriter.png');
+	background-size:contain;
+	margin-left:12px;
+	margin-bottom:24px;
+	border-radius: 6px;
+}
+
+.gallery3{
+	height:100%;
+ 	background: url('../img/speaking.png');
+	background-size:contain;
+	margin-left:24px;
+	margin-bottom:24px;
+	border-radius: 6px;
+}
+
+
+
+#foot{
+	height:400px;
+	margin-top: 30%;
+}
+
+.intouch{
+	text-align: center;
+	margin-top:32px;
+}
+
+.social{
+	margin-top:48px;
+}
+
+.socialIcons{
+	margin:auto;
+}
+
+.socialIcons li{
+	height:32px;
+	width:32px;
+
+	float:left;
+	margin:12px;
+}
+
+
+.insta{
+		background: url('../img/insta.png');
+		background-size: contain;
+}
+
+.linkedIn{
+	background: url('../img/linkedIn.png');
+	background-size: contain;
+}
+
+.fb{
+	background: green;
+}
